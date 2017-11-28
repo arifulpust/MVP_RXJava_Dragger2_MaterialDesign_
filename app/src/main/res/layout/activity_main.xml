@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="arif.com.myapplication.main.MainActivity"
+    >
+    <Button
+        android:id="@+id/QRCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="QRCodeScanner"
+        android:layout_margin="5dp"
+
+
+    />
+    <Button
+        android:id="@+id/rxJava"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RxJava"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+    <Button
+        android:id="@+id/rxJavaDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="rxJavaDetails"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+    <Button
+        android:id="@+id/draggerrxmvp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="draggerrxmvp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+    <Button
+        android:id="@+id/eventBus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EventBus"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+    <Button
+        android:id="@+id/dragger2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="dragger2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+    <Button
+        android:id="@+id/materialDesign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Material Design"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+</LinearLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="arif.com.myapplication.RXJava.RxJavaMain">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BasicRXJava"
+        android:id="@+id/BasicRXJava"
+
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RxJavaDataBinding"
+        android:id="@+id/RxJavaDataBinding"
+        android:onClick="RxJavaDataBinding"
+        app:layout_constraintTop_toBottomOf="@+id/BasicRXJava"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="rxTimer Demo"
+        android:id="@+id/timerdemo"
+        android:onClick="rxTimer"
+        app:layout_constraintTop_toBottomOf="@+id/RxJavaDataBinding"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RXJavaSearch Demo"
+        android:id="@+id/RXJavaSearch"
+        android:onClick="RXJavaSearch"
+        app:layout_constraintTop_toBottomOf="@+id/timerdemo"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FormValidation Demo"
+        android:id="@+id/formvalidation"
+        android:onClick="FormValidation"
+        app:layout_constraintTop_toBottomOf="@+id/RXJavaSearch"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RXJavaSubject"
+        android:id="@+id/RXJavaSubject"
+        android:onClick="RXJavaSubject"
+        app:layout_constraintTop_toBottomOf="@+id/formvalidation"
+        />
+</android.support.constraint.ConstraintLayout>
